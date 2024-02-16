@@ -162,3 +162,95 @@ else
 }
 */
 --------------------------
+class Program9 
+{
+	public static void main(String[] args) 
+	{
+		int age = 64;
+		if(age<18)
+		{
+			System.out.println("Major");
+		}
+		else if(age>=18 && age<60)
+		{
+			System.out.println("Minor");
+		}
+		else
+		{
+			System.out.println("Senior Citizen");
+		}
+	}
+}
+==============================================================================================
+class Program10
+{
+	public static void main(String[] args) 
+	{
+		int num=18;
+		if(num%2==0 && num%3==0)
+		{
+			System.out.println("chennai");
+		}
+		else if(num%2==0)
+		{
+			System.out.println("Madurai");
+		}
+		else if(num%3==0)
+		{
+			System.out.println("Salem");
+		}
+		else
+		{
+			System.out.println("Ooty");
+		}
+	}
+}
+==============================================================================================
+class Program11
+{
+	public static void main(String[] args) 
+	{
+		double amount = 12500.00;
+		if(amount<1000)
+		{
+			System.out.println("No Discount");
+		}
+		else if(amount>=1000 && amount<2500)
+		{
+			System.out.println("10% Discount");
+		}
+		else if(amount>=2500 && amount<5000)
+		{
+			System.out.println("25% Discount");
+		}
+		else
+		{
+			System.out.println("30% Discount");
+		}
+	}
+}
+==============================================================================================
+class Program12
+{
+	public static void main(String[] args) 
+	{
+		char ch ='A';
+		if(ch>= 'A' && ch<='Z')
+		{
+			System.out.println("Upper Case");
+		}
+		else if(ch>= 'a' && ch<='z')
+		{
+			System.out.println("Lower Case");
+		}
+		else if(ch>='0' && ch<= '9' )
+		{
+			System.out.println("Digits");
+		}
+		else
+		{
+			System.out.println("Special Symbols");
+		}
+	}
+}
+==============================================================================================
