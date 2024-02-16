@@ -1,0 +1,162 @@
+Control Statements:
+------------------
+-> It can be used by the programmer to alter the order of execution inside a Java Program
+
+if statement - Version 1: 
+It is a branching statement used to create dedcision making blocks in a Java Program.
+
+================================================================================================================================================
+class Program1 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Program Starts");
+		int num = 5;
+		if(num<7)
+		{
+			System.out.println("Execution Successful");
+		}
+		System.out.println("Program Ends");
+	}
+}
+==============================================================================================
+class Program2 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Program Starts");
+		int x = 8;
+		if(x>5 && x<10)
+		{
+			System.out.println("Chennai");
+		}
+		System.out.println("Program Ends");
+	}
+}
+==============================================================================================
+class Program3 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Program Starts");
+		int a=12;
+		if(a%12==0 || a%3==0)
+		{
+			System.out.println("Executed Successfully");
+		}
+		System.out.println("Program Ends");
+	}
+}
+==============================================================================================
+class Program4 
+{
+	public static void main(String[] args) 
+	{
+		boolean bugs = true;
+		if(bugs==true)
+		{
+			System.out.println("Generate Bug Report");
+		}
+		System.out.println("Generate Test Report");
+	}
+}
+_______________________________________________________________________________________________________________________________________________________________________________________________
+if statement - Version 2: 
+-------------------------
+/*
+Syntax:
+if(condition)
+{
+  //if-body
+}
+else
+{
+  //else-body
+}
+--------------------------
+class Program5 
+{
+	public static void main(String[] args) 
+	{
+		int age = 12;
+		if(age>=18)
+		{
+			System.out.println("Major");
+		}
+		else
+		{
+			System.out.println("Minor");
+		}
+	}
+}
+==============================================================================================
+class Program6 
+{
+	public static void main(String[] args) 
+	{
+		int num = 37;
+		if(num%2==0)
+		{
+			System.out.println("Even Number");
+		}
+		else
+		{
+			System.out.println("Odd Number");
+		}
+	}
+}
+==============================================================================================
+public class Program7 
+{
+	public static void main(String[] args) 
+	{
+		double accBal = 10000.00;
+		int amt = 15000;
+		if(amt<=accBal)
+		{
+			System.out.println("Withdraw Success");
+		}
+		else
+		{
+			System.out.println("Invalid");
+		}
+	}
+}
+==============================================================================================
+class Program8 
+{
+	public static void main(String[] args) 
+	{
+		boolean coronaStatus = true;
+		if(coronaStatus==true)
+		{
+			System.out.println("Covid +ve, go for Quarantine");
+		}
+		else
+		{
+			System.out.println("Covid -ve, Stay Home");
+		}
+	}
+}
+_______________________________________________________________________________________________________________________________________________________________________________________________
+if statement - Version 3: 
+-------------------------
+/*
+Syntax:
+if(condition 1)
+{
+  //if-body
+}
+else if(condition 2)
+{
+  //else if -body
+}
+else if(condition 3)
+{
+  //else if -body
+}
+else
+{
+  //else-body
+}
+--------------------------
