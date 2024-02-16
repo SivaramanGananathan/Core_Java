@@ -1,1 +1,111 @@
+Basic Syntax
+class Program1 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Welcome to Java Class");
+	}
+}
+______________________________________________________________________________________________________________________________________________________________________________________________
+
+System.out.println();
+//It is a Java Statement used to display content on the output screen.
+//String values should be given in double quotes.
+//Character values should be given in single quotes.
+//Numbers and Boolean values are displayed Directly.
+
+class Program2 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Qspiders");
+		System.out.println(2020);
+		System.out.println(8.34);
+		System.out.println('J');
+		System.out.println(true);
+	}
+}
+______________________________________________________________________________________________________________________________________________________________________________________________
+
+"+" Opertor
+//The "+" Opertator in java performs the 2 operations
+  1. Addition 2. Concatenation(Joining)
+//String + Anyvalue ---> Concatenation
+
+1. Addition
+class Program3 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(10+15);
+		System.out.println(2.3+4.5);
+		System.out.println(12+3.5);
+		System.out.println(4.2+8);
+		System.out.println(10+11+12+13);
+	}
+}
+
+2.Concatenation
+class Program4 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Chennai" + "City");
+		System.out.println("Boys" + 90);
+		System.out.println(80 + "Girls");
+		System.out.println("10"+10);
+	}
+}
+
+3.ASCII Value
+class Program5 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(60.33 + "%");
+		System.out.println("A" + 10);
+		System.out.println('A'+10);
+		System.out.println("Alphabet"+'A');
+		System.out.println('A'+'A');
+	}
+}
+
+4.Addition & Concatenation
+class Program6 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(30+30);
+		System.out.println(30+30+"Is the number");
+		System.out.println("The number"+30+30);
+	}
+}
+______________________________________________________________________________________________________________________________________________________________________________________________
+Primitive Datatypes & Variables
+Syntax: 
+Approach-1:
+datatype variablename;
+variablename = value;
+Approach-1:
+datatype variablename = value;
+
+class Program7 
+{
+	public static void main(String[] args) 
+	{
+		int a  = 10;
+		double b = 20;
+		char c = 'a';
+		String s = "Hello";
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(s);
+		
+	}
+}
+______________________________________________________________________________________________________________________________________________________________________________________________
+
+
 
